@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span{
+  color: #FFFFFF;
+}
+u{
+  color: blue;
+}
+header{
+  background-color: #1A234B;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+header h1{
+  margin-left: 20px;
+  font-size: 3em;
+}
+main{
+  padding: 0 20px;
+}
+body{
+  background-image: url("Fundo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+i{
+  font-size: 2em;
+}
+
+nav ul{
+  list-style: none;
+}
+nav li a{
+  padding: 16px 0;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  
+}
+nav li a:hover{
+  border-bottom: 2px solid blue;
+  transition: 1s;
+}
+nav li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+.dropdownmenu a{
+  display: block;
+  color: black;
+  padding: 20px 35px;
+}
+.dropdownmenu a:hover{
+  color: white;
+  background: blue;
+  transition: 1s;
+}
+.dropdownmenu{
+  display: none;
+  background: #fff;
+  position: absolute;
+  box-shadow: 0 0 20px black;
+}
+.dropdown:hover .dropdownmenu{
+  display: block;
+  transition: 1s;
+}
+
+.foto{
+  margin-top: 450px;
+  background-image: url("Segurança.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  align-content: center;
+}
+.letra h1{
+  
+  font-size: 4em;
+  text-align: center;
+}
